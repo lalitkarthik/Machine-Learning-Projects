@@ -1,0 +1,13 @@
+prefix=/home/lalit-karthik/Lalit/Machine Learning/Project/venv
+exec_prefix=/home/lalit-karthik/Lalit/Machine Learning/Project/venv
+libdir=/home/lalit-karthik/Lalit/Machine Learning/Project/venv/lib
+sharedlibdir=/home/lalit-karthik/Lalit/Machine Learning/Project/venv/lib
+includedir=/home/lalit-karthik/Lalit/Machine Learning/Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
